@@ -49,16 +49,16 @@ a:hover {
 .HEAD2 {
     display: flex;
     color: rgb(22, 6, 6);
-   /* border: 1px solid black;*/
+    border: 1px solid black;
     
 }
 
 .textHEAD2 {
-    /*display: flex;*/
+    display: flex;
     
     align-items: center;
     border: 1px solid black;
-    /*margin: 5px 20px 20px 20px;*/
+    margin: 5px 20px 20px 20px;
     
 
 
@@ -69,15 +69,19 @@ a:hover {
 }
 
 .button3 {
-    background-color: white; 
-    color: black; 
-    border: 1px solid #008CBA;
-    padding: 3px;
    
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid #008CBA;
+    
+    
     
 }
 
 .button3:hover {
-    background-color: #008CBA;
-    color: white;
+
+    background-color: white; 
+    color: black; 
+    border: 1px solid #008CBA;
+    padding: 3px;
 }
