@@ -1,14 +1,52 @@
+
 BODY {
-   /* display: flex;*/
-    background-image: url(https://images.unsplash.com/photo-1673858566199-b8f5d78bc247?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDkzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   
+    
+    
+ 
+  /* background-image:  url('rm373batch2-08.jpg');*/
+   background-position: top ;
+
+   
 }
 .HEAD1 {
 
-    margin: 0 auto;
-    border: 2PX SOLID rgb(5, 6, 9);
-    background-color: rgb(7, 7, 8);
-    padding: 0 AUTO;
+    display: flex;
+    
+   /* margin: 0 auto;
+   /* border: 2PX SOLID rgb(6, 19, 59);*/
+    background-color: rgb(5, 5, 14);
+    padding: 20px 20px 20px 20px;
+ }
+
+.menuR{
+    justify-content:flex-end ;
+    gap: 20px nnnnnnn3;
+
+    
+}
+
+.menuL {
+  color: blueviolet;
+  flex-grow: 2;
+}
+a{
+   
+    color: blanchedalmond;
+    text-decoration: none;
+  
+   
+
+
+}
+a:hover {
+    color: rgb(185, 235, 255) ;
+    border:  red;
+    text-decoration: none;
+    background-color: rgb(23, 22, 38);
+
 }
 .HEAD2 {
-    color: red;
+    display: flex;
+    color: rgb(22, 6, 6);
 }
