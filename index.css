@@ -2,6 +2,7 @@
 BODY {
    
     margin: auto;
+    /*width: 100%;
     
  
   /* background-image:  url('rm373batch2-08.jpg');*/
@@ -85,4 +86,38 @@ a:hover {
     color: black; 
     border: 1px solid #008CBA;
     padding: 3px;
+}
+.flexUnder {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    width: auto;
+    
+
+   
+    flex: 2;
+
+    
+}
+
+.Albert {
+    height:200px ;
+    width: 200px ;
+}
+
+.marie {
+ 
+    height:200px ;
+    width: 200px;
+}
+.al-Haytham{
+    height:200px ;
+    width: 200px;
+}
+.Al-Khwarizmi {
+    height:200px ;
+    width: 200px;
+
+
 }
