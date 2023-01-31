@@ -1,5 +1,6 @@
 
 BODY {
+
    
     margin: auto;
     /*width: 100%;
@@ -89,17 +90,16 @@ a:hover {
 }
 .flexUnder {
     display: flex;
-    align-items: center;
+    align-content: center;
     
     justify-content: space-between;
-    width: auto;
-    
-
-   
-    flex: 2;
+   /* width:min-content;*/
+   margin: 0 200px 0 200px;
+    flex: 1;
 
     
 }
+
 
 .Albert {
     height:200px ;
@@ -121,3 +121,25 @@ a:hover {
 
 
 }
+.BODY2 {
+    display: block;
+    font-style: oblique;
+    font-size: large;
+    background-color:rgb(228, 228, 228);
+    border: 3px solid rgb(228, 228, 228) ;
+    padding: 20px 200px 100px 300px ;
+   /* margin:  0 50px 50px 50px;*/
+    
+    
+}
+.nour{
+     font-weight:bold;
+     color: black;
+
+
+}
+.nour:hover {
+    color: #008CBA;
+    background-color: rgb(228, 228, 228);
+}
+
