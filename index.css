@@ -70,9 +70,14 @@ a:hover {
 
 
 }
+/*let zakah= window.prompt( "ادخل الرقم" )
+          console.log(zakah= 0.025*zakah + "ليرm-")*/
 
 .button3{
     transition-duration: 0.4s ;
+}
+img {
+    border: 1px solid grey;
 }
 
 .button3 {
@@ -89,9 +94,9 @@ a:hover {
 
 .button3:hover {
 
-    background-color: white; 
+    background-color: rgb(255, 249, 130); 
     color: black; 
-    border: 1px solid #008CBA;
+    border: 1px solid #000000;
     padding: 7px;
 }
 .flexUnder {
@@ -108,22 +113,22 @@ a:hover {
 
 
 .Albert {
-    height:200px ;
-    width: 200px ;
+    height:250px ;
+    width: 250px ;
 }
 
 .marie {
  
-    height:200px ;
-    width: 200px;
+    height:250px ;
+    width: 250px;
 }
 .al-Haytham{
-    height:200px ;
-    width: 200px;
+    height:250px ;
+    width: 250px;
 }
 .Al-Khwarizmi {
-    height:200px ;
-    width: 200px;
+    height:250px ;
+    width: 250px;
 
 
 }
