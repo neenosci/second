@@ -3,13 +3,17 @@ BODY {
 
    
     margin: auto;
-    /*width: 100%;
+    /*width: 100%;*/
     
  
-  /* background-image:  url('rm373batch2-08.jpg');*/
+   background-image:  url(https://media.istockphoto.com/id/1291127002/photo/worn-and-rough-beige-background-with-dots-and-specks-of-dust-grunge-texture-of-antique.jpg?s=612x612&w=0&k=20&c=kLwEiT4noYN8O6GMKsZ7u0p7D77b8LMObauGZjNfqVI=);
+   background-attachment: fixed;
   /* background-position: top ;*/
 
    
+}
+.BODY1{
+    /*background-image: url(https://as2.ftcdn.net/v2/jpg/03/09/45/63/1000_F_309456323_cQxtQU6fPTwnW9xzFz4KjWZMCBGa0FJS.jpg);*/
 }
 .HEAD1 {
 
@@ -17,7 +21,7 @@ BODY {
 
     margin: 0 auto;
    /* border: 2PX SOLID rgb(6, 19, 59);*/
-    background-color: rgb(5, 5, 14);
+    background-color: rgb(23, 26, 0);
     padding: 20px 20px 20px 20px;
  }
 
@@ -30,6 +34,7 @@ BODY {
 }
 .menuR:hover {
     
+    
 }
 
 .menuL {
@@ -38,18 +43,21 @@ BODY {
 }
 a{
    
-    color: blanchedalmond;
+    color: rgb(250, 213, 158);
     text-decoration: none;
+    transition-duration: 0.4s ;
   
    
 
 
 }
 a:hover {
-    color: rgb(185, 235, 255) ;
+    color: rgb(255, 255, 255) ;
     border:  red;
     text-decoration: none;
-    background-color: rgb(23, 22, 38);
+    font-size: 17px;
+    background-color: rgb(32, 32, 19);
+    padding: 2px;
 
 }
 .HEAD2 {
@@ -65,6 +73,8 @@ a:hover {
     align-items: center;
     border: 1px solid black;
     margin: 5px 20px 20px 20px;
+    padding-left: 20px;
+    background-color: white;
     /**/
     
 
@@ -82,7 +92,7 @@ img {
 
 .button3 {
    
-    background-color: #008CBA;
+    background-image: url(https://media.istockphoto.com/id/963448782/photo/glitter-vintage-lights-background-dark-gold-and-black-de-focused.jpg?b=1&s=612x612&w=0&k=20&c=QKWX42wanwyDT4NgdlHFw1F-fDfV69QbU6wzgQTQDd4=);
     color: white;
     border: 1px solid #008CBA;
     padding: 10px;
@@ -95,9 +105,9 @@ img {
 .button3:hover {
 
     background-color: rgb(255, 249, 130); 
-    color: black; 
+    color: rgb(194, 155, 0); 
     border: 1px solid #000000;
-    padding: 7px;
+    padding: 8px;
 }
 .flexUnder {
     display: flex;
@@ -107,6 +117,7 @@ img {
    /* width:min-content;*/
    margin: 50px 200px 50px 200px;
     flex: 1;
+    /*background-image: url(https://i.pinimg.com/originals/f1/5e/0f/f15e0fdc3c87c48847f76b02adb9c9a4.jpg);*/
 
     
 }
